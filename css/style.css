@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+  
+}
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: #001520;
+}
+.nav-h{
+    display: flex;
+}
+.loc{
+    color: white;
+    position: relative;
+    top: 20px;
+    margin-left: 60px;
+    list-style: none;
+    font-size: 20px;
+}
+.cal{
+    color: white;
+    position: relative;
+    top: 20px;
+    margin-left: 280px;
+    list-style: none;
+    font-size: 20px;
+}
+.dem{
+    color: white;
+    position: relative;
+    top: 20px;
+    margin-left: 350px;
+    list-style: none;
+    font-size: 20px;
+}
+.contact{
+
+    height: 10vh;
+    width: 100%;
+    background-color: #001520;
+    position: relative;
+    top: 2px;   
+}
+.contact-fin h1{
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.contact-fin h1:hover{
+    color: #000708;
+}
+.hom{
+    color: white;
+    display: flex;
+    justify-content: end;
+    /* text-align: center; */
+}
+.home{
+    position: relative;
+    right: 50px;
+    top: -30px;
+    text-align: center;
+    margin: 30px;
+    text-transform: uppercase;   
+}
+.home:hover{
+    color: #2c7873;
+}
+.man-w{
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+.man h2{
+    position: relative;
+    top: 180px;
+    left: 120px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.man p{
+    position: relative;
+    top: 200px;
+    left: 120px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.rea{
+    padding: 10px 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    top: 230px;
+    left: 120px;
+    background-color: #2c7873;
+    border: 1px solid #2c7873;
+    overflow: hidden;
+}
+.rea:hover{
+    background-color: white;
+
+}
+.man-wom img{
+    width: 50%;
+    height: 70vh;
+    position: relative;
+    top: -140px;
+    float: right;
+    overflow: hidden;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background-color: #004445;
+}
+.foot{
+    position: relative;
+    left: -50px;
+}
+.footer h1{
+    position: relative;
+    top: 70px;
+    left: 100px;
+    color: white;
+    font-family: sans-serif;
+}
+.foot h2{
+    position: relative;
+    top: 90px;
+    left: 100px;
+    color: white;
+    font-family: sans-serif;
+}
+.foot p{
+        position: relative;
+        top: 100px;
+        left: 100px;
+        color: white;
+        font-family: sans-serif;
+}
+.foo{
+    position: relative;
+    left: -180px;
+}
+.foo h1{
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+.foo h2{
+    position: relative;
+    top: 70px;
+    left: 200px;
+    color: white;
+}
+
+.foo button{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-size: 20px;
+    padding: 10px 45px;
+    font-family: sans-serif;
+    position: relative;
+    background-color: #2c7873;
+    border: 1px solid #2c7873;
+    overflow: hidden;
+    color: white;
+    border-radius: 5px;
+}
+.foo button:hover{
+background-color: #136560;
+}
+.foo input{
+    position: relative;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    top: 80px;
+    left: 200px;
+    height: 7vh;
+    width: 280px;
+    background-color: white;
+}
+.call{
+        position: relative;
+        left: -220px;
+    
+}
+.call h4{
+    position: relative;
+    top: 50px;
+    left: 220px;
+    color: white;
+    font-size: 18px;
+}
+.call h5{
+    position: relative;
+    top: 90px;
+    left: 200px;
+    color: white;
+    font-size: 22px;
+}
+.call p{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    color: white;
+    font-size: 18px;
+}
+.icon h6{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 18px;
+}
+.icon samp{
+    position: relative;
+    top: 120px;
+    color: white;
+    font-size: 18px;
+}
+.icon section{
+    position: relative;
+    top: 130px;
+    color: white;
+    font-size: 18px;
+
+}
+.icon small{
+    position: relative;
+    top: 140px;
+    color: white;
+    font-size: 18px;
+}
+.icon p{
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 18px;
+}
+.icon h4{
+    position: relative;
+    top: 160px;
+    color: white;
+    font-size: 18px;
+}
+.footers{
+    height: 10vh;
+    width: 100%;
+}
+.footers p{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: inherit;
+    font-size: 20px;
+    font-family: sans-serif;
+}
